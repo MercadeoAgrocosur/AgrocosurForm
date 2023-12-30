@@ -116,3 +116,78 @@ body {
     padding: 0;
     display: block;
 }
+
+@media (max-width: 600px) {
+    .boder {
+        width: 60%;
+        height: auto;
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+
+    .boderdos {
+        width: 60%;
+        height: auto;
+        position: absolute;
+        right: 0%;
+        transform: rotate(180deg);
+
+    }
+
+    .notaCredito {
+        width: 65%;
+        height: auto;
+        margin-left: 15%;
+        position: absolute;
+        top: 39%;
+        left: 10px;
+        z-index: 2;
+        transition: transform 0.3s ease-in-out;
+    }
+
+    .apoyos {
+        width: 65%;
+        height: auto;
+        margin-left: 15%;
+        position: absolute;
+        top: 46%;
+        left: 10px;
+        z-index: 2;
+        transition: transform 0.3s ease-in-out;
+    }
+
+    .clientes {
+        width: 65%;
+        height: auto;
+        margin-left: 15%;
+        position: absolute;
+        top: 53%;
+        left: 10px;
+        z-index: 2;
+        transition: transform 0.3s ease-in-out;
+    }
+
+    .vaca {
+        width: 70%;
+        height: auto;
+        margin: 290px 0 0 0;
+        padding: 0;
+        display: block;
+    }
+
+    .circulo {
+        width: 60%;
+        margin-left: 90px;
+        margin-top: 50px;
+    }
+
+    .logo {
+        width: 45%;
+        height: auto;
+        margin-left: 114px;
+        position: absolute;
+        top: 78px;
+        left: 10px;
+    }
+}
